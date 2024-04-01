@@ -9,7 +9,7 @@ app.listen(port, () => {
     console.log(`App listening on port ${port}`);
 })
 
-app.post('/registro'), (req, res) => {
-    console.log (req.body);
+app.get('/registro'), (req, res) => {
+    res.sen("bienvenido")
 }
     
