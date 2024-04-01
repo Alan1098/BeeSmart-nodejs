@@ -8,6 +8,6 @@ app.listen(port, () => {
     console.log(`App listening on port ${port}`);
 });
 
-app.get('/registro', (req, res) => {
-    res.send("¡Bienvenido!");
+app.post('/registro', (req, res) => {
+    console.log(req.body);
 });
